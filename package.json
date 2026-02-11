@@ -1,0 +1,15 @@
+{
+  "name": "com.gladekit.agenticai",
+  "version": "1.0.0",
+  "displayName": "GladeKit Agentic AI",
+  "description": "Agentic AI assistant for Unity game development",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "author": {
+    "name": "GladeKit"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.4.4",
+    "com.unity.ai.navigation": "1.1.5"
+  }
+}
