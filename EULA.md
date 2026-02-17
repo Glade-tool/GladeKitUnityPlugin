@@ -2,7 +2,7 @@
 
 GladeKit Unity Plugin
 
-Version 1.0 — © 2026 Glade Tool Inc. All Rights Reserved.
+Version 1.0.2 — © 2026 Glade Tool Inc. All Rights Reserved.
 
 1. License Grant
 
