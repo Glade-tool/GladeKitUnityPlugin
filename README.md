@@ -14,14 +14,17 @@ The plugin:
 
 ## Installation
 
-The GladeKit desktop app automatically installs this plugin into Unity projects. When you connect a Unity project in the GladeKit app, it:
+To install the plugin into a Unity project:
 
-1. Checks if the plugin is already installed
-2. Downloads the latest release from this GitHub repository if needed
-3. Installs it to your Unity project's `Packages/` folder
-4. Unity automatically detects and compiles the package
+1. Open the GladeKit desktop app
+2. Click the install button to install the plugin into your Unity project
+3. The app downloads the latest release from this GitHub repository
+4. Installs it to your Unity project's `Packages/` folder
+5. Unity automatically detects and compiles the package
 
-The GladeKit app also checks for plugin updates and notifies you when new versions are available.
+### Updates
+
+The GladeKit app automatically checks for plugin updates and notifies you when new versions are available. Updates are installed automatically and prompts user when available.
 
 ## How It Works
 
