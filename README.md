@@ -1,35 +1,37 @@
 # GladeKit Unity Plugin
 
-Desktop application that bridges Unity Editor with the GladeKit AI backend, providing a seamless interface for AI-assisted Unity game development.
+Unity package that connects Unity Editor to the GladeKit desktop application, enabling AI-assisted Unity game development.
 
 ## Overview
 
-The GladeKit app serves as a bridge between Unity Editor and the GladeKit AI backend. It provides a modern chat interface where developers can interact with AI agents that directly manipulate Unity projects—creating scripts, editing GameObjects, managing components, and more—all in real-time.
+This repository contains the **GladeKit Unity Plugin**—a Unity package that gets installed into Unity projects to bridge Unity Editor with the GladeKit desktop app. The plugin enables the GladeKit app to directly interact with Unity projects, allowing AI agents to create scripts, edit GameObjects, manage components, and more in real-time.
 
-The app:
-- Connects to Unity Editor when it's running
-- Communicates with the GladeKit AI backend
-- Manages installation and updates of the Unity plugin from GitHub Releases
-- Provides a user interface for AI-assisted game development
+The plugin:
+- Runs a local HTTP server in Unity Editor to communicate with the GladeKit app
+- Provides APIs for the GladeKit app to execute tools and gather project context
+- Enables real-time synchronization between the GladeKit app and Unity Editor
+- Manages backups and change tracking for AI-generated modifications
 
-## Plugin Installation
+## Installation
 
-The GladeKit app automatically manages the Unity plugin installation by downloading the latest version from the `Glade-tool/GladeKitUnityPlugin` GitHub repository. When a user connects to a Unity project, the app:
+The GladeKit desktop app automatically installs this plugin into Unity projects. When you connect a Unity project in the GladeKit app, it:
 
-1. Checks if the plugin is installed
-2. Downloads the latest release from GitHub if needed
-3. Installs it to the Unity project's `Packages/` folder
+1. Checks if the plugin is already installed
+2. Downloads the latest release from this GitHub repository if needed
+3. Installs it to your Unity project's `Packages/` folder
 4. Unity automatically detects and compiles the package
 
-The app also checks for plugin updates and notifies users when new versions are available.
+The GladeKit app also checks for plugin updates and notifies you when new versions are available.
 
-## Features
+## How It Works
 
-- **AI Chat Interface**: Real-time chat with AI models to assist with Unity development
-- **Unity Integration**: Direct communication with Unity Editor to execute changes
-- **Automatic Plugin Management**: Installs and updates the Unity plugin from GitHub Releases
-- **Change Tracking**: Track and revert AI-generated changes
-- **Multi-Project Support**: Work with multiple Unity projects
+The Unity plugin acts as a bridge between Unity Editor and the GladeKit desktop application:
+
+- **Unity Editor** ↔ **Unity Plugin** (this package): Local HTTP server running in Unity
+- **Unity Plugin** ↔ **GladeKit App**: The plugin exposes APIs that the GladeKit app calls
+- **GladeKit App** ↔ **AI Backend**: The app communicates with the cloud-based AI service
+
+This architecture allows the GladeKit app to control Unity Editor remotely while you interact with the AI through the GladeKit app's chat interface.
 
 
 ## License
