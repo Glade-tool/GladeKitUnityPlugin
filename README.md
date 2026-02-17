@@ -34,7 +34,9 @@ The app also checks for plugin updates and notifies users when new versions are 
 
 ## License
 
-ISC
+© 2026 Glade Tool Inc. All Rights Reserved.
+
+This software is proprietary and licensed under the GladeKit Unity Plugin End User License Agreement (EULA). See the [EULA](../EULA.md) for full terms and conditions.
 
 ## Links
 
