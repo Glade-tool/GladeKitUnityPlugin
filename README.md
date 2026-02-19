@@ -3,6 +3,7 @@
 Unity package that connects Unity Editor to the GladeKit desktop application, enabling AI-assisted Unity game development.
 
 ## Overview
+v1.1.0
 
 This repository contains the **GladeKit Unity Plugin**—a Unity package that gets installed into Unity projects to bridge Unity Editor with the GladeKit desktop app. The plugin enables the GladeKit app to directly interact with Unity projects, allowing AI agents to create scripts, edit GameObjects, manage components, and more in real-time.
 
