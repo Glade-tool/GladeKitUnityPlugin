@@ -5,7 +5,7 @@ Unity package that connects Unity Editor to the GladeKit desktop application, en
 ## Overview
 v1.3.0
 
-This repository contains the **GladeKit Unity Plugin**—a Unity package that gets installed into Unity projects to bridge Unity Editor with the GladeKit desktop app. The plugin enables the GladeKit app to directly interact with Unity projects, allowing AI agents to create scripts, edit GameObjects, manage components, and more in real-time.
+This repository contains the **GladeKit Unity Plugin** - a Unity package that gets installed into Unity projects to bridge Unity Editor with the GladeKit desktop app. The plugin enables the GladeKit app to directly interact with Unity projects, allowing AI agents to create scripts, edit GameObjects, manage components, and more in real-time.
 
 To install our app directly please visit [our website](https://www.gladekit.com).
 
@@ -19,8 +19,8 @@ The plugin:
 
 To install the plugin into a Unity project:
 
-1. Open the GladeKit desktop app
-2. Click the install button to install the plugin into your Unity project
+1. Download then open the GladeKit desktop app
+2. Click the install button in the application to install the plugin into your Unity project (you must open have the Unity project open) 
 3. The app downloads the latest release from this GitHub repository
 4. Installs it to your Unity project's `Packages/` folder
 5. Unity automatically detects and compiles the package
