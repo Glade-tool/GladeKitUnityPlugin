@@ -1,6 +1,6 @@
 {
   "name": "com.gladekit.agenticai",
-  "version": "1.3.6.1",
+  "version": "1.3.7",
   "displayName": "GladeKit Agentic AI",
   "description": "Agentic AI assistant for Unity game development",
   "unity": "2021.3",
